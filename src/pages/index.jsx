@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import Footer from '../components/Footer';
 import Hero from '../components/Hero'
 import Info from '../components/Info'
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour} from '../components/Info/Data';
+import {homeObjOne, homeObjTwo} from '../components/Info/Data';
 import Navbar from '../components/Navbar'
 import Roadmap from '../components/Roadmap';
 import Creators from '../components/Creators';
