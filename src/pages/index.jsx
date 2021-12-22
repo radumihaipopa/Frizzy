@@ -19,7 +19,7 @@ const Home = () => {
   }
 
   if (isMobile) {
-     rootElement.style.width = `${window.innerWidth}px`;
+     rootElement.style.width = `fit-content`;
   }
   const updateWidthAndHeight = () => {
      if (isMobile) {
