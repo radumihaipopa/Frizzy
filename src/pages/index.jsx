@@ -11,19 +11,19 @@ import Perks from '../components/Perks';
 import {isMobile} from 'react-device-detect';
 
 const Home = () => {
-  const [isOpen, setIsOpen] = useState(false);
-    // rootElement = document.getElementById('root');
+  const [isOpen, setIsOpen] = useState(false),
+    rootElement = document.getElementById('root');
 
   const toggle = () =>{
     setIsOpen(!isOpen);
   }
 
   if (isMobile) {
-     // rootElement.style.width = `fit-content`;
+     rootElement.style.width = `fit-content`;
   }
   const updateWidthAndHeight = () => {
      if (isMobile) {
-         // rootElement.style.width = `${window.innerWidth}px`;
+         rootElement.style.width = `${window.innerWidth}px`;
      }
   };
 
