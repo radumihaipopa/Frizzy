@@ -79,8 +79,12 @@ export const Img = styled.img`
   margin: 0 0 10px 0;
   padding-right: 0;
   @media screen and (max-width: 820px) {
-    width: 50%;
-    heigth: 50%
+    width: 70%;
     margin: 0 0 30px 0;
+  }
+  @media screen and (max-width: 350px) {
+    width: 130px;
+    height: 130px
+    margin: 0 0 50px 0;
   }
 `;

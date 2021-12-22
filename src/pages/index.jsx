@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import Footer from '../components/Footer';
 import Hero from '../components/Hero'
 import Info from '../components/Info'
@@ -10,11 +10,23 @@ import Sidebar from '../components/SideBar';
 import Perks from '../components/Perks';
 
 const Home = () => {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false),
+  rootElement = document.getElementById('root');
+    rootElement.style.width = `${window.innerWidth}px`;
 
   const toggle = () =>{
     setIsOpen(!isOpen);
   }
+
+
+  const updateWidthAndHeight = () => {
+      rootElement.style.width = `${window.innerWidth}px`;
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", updateWidthAndHeight);
+    return () => window.removeEventListener("resize", updateWidthAndHeight);
+  });
 
   return (
     <>
