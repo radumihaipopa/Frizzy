@@ -8,24 +8,27 @@ import Roadmap from '../components/Roadmap';
 import Creators from '../components/Creators';
 import Sidebar from '../components/SideBar';
 import Perks from '../components/Perks';
+import {isMobile} from 'react-device-detect';
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false),
-  rootElement = document.getElementById('root');
-    rootElement.style.width = `${window.innerWidth}px`;
+    rootElement = document.getElementById('root');
 
   const toggle = () =>{
     setIsOpen(!isOpen);
   }
 
-
+  if (isMobile) {
+     rootElement.style.width = `fit-content`;
+  }
   const updateWidthAndHeight = () => {
-      rootElement.style.width = `${window.innerWidth}px`;
+     if (isMobile)
+         rootElement.style.width = `${window.innerWidth}px`;
   };
 
   useEffect(() => {
-    window.addEventListener("resize", updateWidthAndHeight);
-    return () => window.removeEventListener("resize", updateWidthAndHeight);
+      window.addEventListener("resize", updateWidthAndHeight);
+      return () => window.removeEventListener("resize", updateWidthAndHeight);
   });
 
   return (

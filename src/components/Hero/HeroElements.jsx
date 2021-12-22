@@ -26,6 +26,7 @@ export const HeroContent = styled.div`
   grid-area: col2;
 
   max-width: 1200px;
+  width: 100%;
   padding: 8px 24px;
   display: grid;
   flex-direction: column;

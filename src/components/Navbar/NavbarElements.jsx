@@ -6,6 +6,7 @@ import { MdArrowForward, MdKeyboardArrowRight } from 'react-icons/md'
 export const Nav = styled.nav`
   background: #010606;
   height: 80px;
+  width: 100%;
   display:flex;
   justify-content: center;
   align-items: center;
