@@ -20,7 +20,7 @@ const Roadmap = () => {
         <ServicesCard>
           <ServicesIcon src={'/images/blue.png'}/>
           <ServicesH2>2023</ServicesH2>
-          <ServicesP>Introduce Freezy to the Metaverse through a child friendly game !</ServicesP>
+          <ServicesP>Introduce Frizzy to the Metaverse through a child friendly game !</ServicesP>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>

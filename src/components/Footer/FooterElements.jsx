@@ -80,6 +80,7 @@ export const Img = styled.img`
   padding-right: 0;
   @media screen and (max-width: 820px) {
     width: 50%;
+    heigth: 50%
     margin: 0 0 30px 0;
   }
 `;

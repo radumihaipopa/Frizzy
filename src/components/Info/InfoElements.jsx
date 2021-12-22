@@ -57,12 +57,21 @@ export const TopLine = styled.p`
   @media screen and (max-width: 768px) {
     font-size: 16px;
   }
+  @media screen and (max-width: 350px) {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
 `
 export const TopLineImg = styled.img`
   height: 25px;
   width: 25px;
   margin: 0 10px;
   transform: translateY(6px);
+  @media screen and (max-width: 350px) {
+    margin: 0 3px;
+}
 `
 export const Subtitle  = styled.p`
   max-width: 440px;
