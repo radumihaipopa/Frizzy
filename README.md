@@ -1,4 +1,4 @@
-# [Frizzy](https://frizzyboy.com/) 
+# [Frizzy](https://www.frizzyboy.com/) 
 ![alt text](https://github.com/radumihaipopa/Frizzy/blob/aa99d4a3cde67f43ada21c59ec3e21c7f640a4c2/public/logo192.png)
 
 This project is a presentation single page web page. It was created with React styled components and hooks. 
