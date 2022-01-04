@@ -26,7 +26,7 @@ const Footer = () => {
               <SocialIconLink href='//twitter.com/frizzy_eboy' target='_blank' arial-label='Twitter'>
                 <FaTwitter/>
               </SocialIconLink>
-              <SocialIconLink href='//discord.gg/aQjQx5e5' target='_blank' arial-label='Discord'>
+              <SocialIconLink href='//discord.gg/98UnqFATbS' target='_blank' arial-label='Discord'>
                 <FaDiscord />
               </SocialIconLink>
             </SocialIcons>
