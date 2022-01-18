@@ -7,8 +7,8 @@ const Hero = () => {
     <HeroContainer id='home'>
           <Img src={'/images/frizzy.gif'} alt={'Loading...'}/>
       <HeroContent>
-        <HeroP>Hi, my name is Frizzy! As my name suggests I am this curly red haired boy who lives in the suburbs with his parents.
-            My parents are launching a unique collection of NFTs with the purpose of helping premature babies! </HeroP>
+        <HeroP>Hi, my name is Frizzy! I am a playful curly red haired boy who lives in the suburbs with his parents.
+            My parents are launching a unique collection of NFTs with the purpose of helping premature born babies! </HeroP>
       </HeroContent>
     </HeroContainer>
   )

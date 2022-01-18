@@ -9,18 +9,22 @@ const Roadmap = () => {
         <ServicesCard>
           <ServicesIcon src={'/images/yellow.png'}/>
           <ServicesH2>Q1/Q2 2022</ServicesH2>
-          <ServicesP>Give back to the community ❤<br/>
-            (future NFT projects airdrops & giveaways in EGLD), donate and help NGOs, help Elrond community grow.</ServicesP>
+          <ServicesP> ❤ Give back to the community;<br/>
+            ❤ Expand the community; <br/>
+            ❤ Donate towards babies.
+           </ServicesP>
         </ServicesCard>
         <ServicesCard>
         <ServicesIcon src={'/images/red.png'}/>
           <ServicesH2>Q3/Q4 2022</ServicesH2>
-          <ServicesP>Transform Frizzy into a brand, increase visibility through marketing, create merchandise (3D printed limited edition `Frizz`, colouring books, T-shirts).</ServicesP>
+          <ServicesP>❤ Transform Frizzy into a brand; <br/>
+            ❤ Expand the community; <br/>
+            ❤ Create merchandise. </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={'/images/blue.png'}/>
           <ServicesH2>2023</ServicesH2>
-          <ServicesP>Introduce Frizzy to the Metaverse through a child friendly game!</ServicesP>
+          <ServicesP>❤ Start developing a Frizzy game; <br/> ❤ Create a toy shop !!!</ServicesP>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>

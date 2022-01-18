@@ -55,7 +55,7 @@ export const HeroP = styled.p`
    justify-content: center;
   background-color: white;
   padding: 1.125em 1.5em;
-  font-size: 1.25em;
+  font-size: 1.45em;
   border-radius: 1rem;
   box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .4);
   :before {
@@ -72,6 +72,8 @@ export const HeroP = styled.p`
    
 }
 @media screen and (max-width: 1024px) {
+font-size: 1.25em;
+
 :before {
     content: '';
     position: absolute;
