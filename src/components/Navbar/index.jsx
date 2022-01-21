@@ -68,7 +68,7 @@ const Navbar = ({ toggle }) => {
           </NavMenu>
           <NavBtn>
             <NavBtnLink href='//trust.market/buy/Frizzy' onMouseEnter={onHover} onMouseLeave={onHover}>
-              Mint available soon ! {hover ? <ArrowForward /> : <ArrowRight/>}
+              Mint now ! {hover ? <ArrowForward /> : <ArrowRight/>}
             </NavBtnLink>
           </NavBtn>
         </NavbarContainer>

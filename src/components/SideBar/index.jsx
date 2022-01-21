@@ -17,7 +17,7 @@ const Sidebar = ({isOpen,toggle}) => {
           <SidebarLink to='contact' onClick={toggle} offset={-80}>Contact</SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarOutLink href='//trust.market/buy/Frizzy'>Mint soon!</SidebarOutLink>
+          <SidebarOutLink href='//trust.market/buy/Frizzy'>Mint</SidebarOutLink>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
