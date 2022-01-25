@@ -9,9 +9,9 @@ const Roadmap = () => {
         <ServicesCard>
           <ServicesIcon src={'/images/yellow.png'}/>
           <ServicesH2>Q1/Q2 2022</ServicesH2>
-          <ServicesP> ❤ Give back to the community;<br/>
+          <ServicesP> ❤ Give back to the community (giveaways & new art);<br/>
             ❤ Expand the community; <br/>
-            ❤ Donate towards babies.
+            ❤ Donate.
            </ServicesP>
         </ServicesCard>
         <ServicesCard>
