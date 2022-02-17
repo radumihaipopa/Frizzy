@@ -75,6 +75,7 @@ export const TopLineImg = styled.img`
 `
 export const Subtitle  = styled.p`
   max-width: 440px;
+  text-align: justify;
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
