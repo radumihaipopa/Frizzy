@@ -18,7 +18,7 @@ const Footer = () => {
                 <Img src={'/images/logo192.png'} alt={'logo'}/>
               </ImgWrap>
             </SocialLogo>
-            <WebsiteRights>Born in Romania 👪 @ 2022.</WebsiteRights>
+            <WebsiteRights>Born in Romania 👪 2022.</WebsiteRights>
             <SocialIcons>
               <SocialIconLink href='//www.instagram.com/frizzy_eboy/' target='_blank' arial-label='Instagram'>
                 <FaInstagram/>

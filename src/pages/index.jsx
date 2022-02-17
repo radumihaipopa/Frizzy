@@ -8,6 +8,7 @@ import Roadmap from '../components/Roadmap';
 import Creators from '../components/Creators';
 import Sidebar from '../components/SideBar';
 import Perks from '../components/Perks';
+import Partners from '../components/Partners';
 import {isMobile} from 'react-device-detect';
 
 const Home = () => {
@@ -40,8 +41,9 @@ const Home = () => {
       <Info {...homeObjOne}/>
       <Info {...homeObjTwo}/>
       <Roadmap />
-        <Perks />
+      <Perks />
       <Creators />
+      <Partners />
       <Footer />
     </>
   )
