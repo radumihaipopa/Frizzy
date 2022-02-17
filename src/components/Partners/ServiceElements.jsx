@@ -48,7 +48,7 @@ export const ServicesCard = styled.a`
 `
 export const ServicesIcon1 = styled.img`
   height: 282px;
-  width: 270px;
+  width: 266px;
   border-radius: 30px;
 `
 
