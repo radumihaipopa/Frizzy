@@ -27,7 +27,7 @@ export const homeObjTwo = {
   topLine1: 'Giveaways',
   topLine2: 'Annual rewards',
   topLine3: 'BRAND NEW CAR',
-  description1: 'We will have a total of 1000 EGLD giveaways (100 EGLD every 10% milestone of the project and 300 EGLD at 50%) starting at 30% as we will airdrop our first 20%. Earlier you get, more chances to win!',
+  description1: 'We will have a total of 1000 EGLD giveaways (50 EGLD every 5% milestone of the project and 200 EGLD at 50%). More Frizzies you own, more chances to win!',
   description2: 'We will host annual rewards for the most active members of our community, we want to intrigue you and keep it a surprise for now 🎁.',
   description3: 'At sell out 1 out of the 25 Frizzy owners with the 🚗 accessory trait will get a brand new ',
   imgStart: true,
@@ -41,8 +41,8 @@ export const homeObjTwo = {
   marginTop: '37px',
   marginBottom: '10px',
   link: true,
-  linkHref: '//www.tesla.com/modelx',
-  linkDescription: 'Tesla Model X.'
+  linkHref: '//www.tesla.com/model3',
+  linkDescription: 'Tesla Model 3.'
 };
 
 export const homeObjThree = {
