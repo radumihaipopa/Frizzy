@@ -47,14 +47,20 @@ export const ServicesCard = styled.a`
   }
 `
 export const ServicesIcon1 = styled.img`
-  height: 282px;
-  width: 266px;
-  border-radius: 30px;
+  height: 300px;
+  width: 320px;
 `
 
 export const ServicesIcon2 = styled.img`
   height: 280px;
-  width: 299px;
+  width: 290px;
+`
+
+export const ServicesIcon3 = styled.img`
+  height: 280px;
+  width: 262px;
+  border-radius: 30px;
+  margin-inline-start: 25px;
 `
 
 export const ServicesH1 = styled.h1`
