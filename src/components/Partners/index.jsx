@@ -1,5 +1,5 @@
 import React from 'react'
-import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon1, ServicesIcon2, ServicesIcon3, ServicesH2} from './ServiceElements'
+import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon1, ServicesIcon2} from './ServiceElements'
 
 const Partners = () => {
   return (
