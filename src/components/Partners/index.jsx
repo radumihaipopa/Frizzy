@@ -10,8 +10,14 @@ const Partners = () => {
               <ServicesIcon3 src={'/images/giants.jpeg'}/>
               <ServicesH2 src={'/images/giants.png'}/>
           </ServicesCard>
+          <ServicesCard href='//8-bitheroes.net/'>
+              <ServicesIcon3 src={'/images/8bit.png'}/>
+          </ServicesCard>
           <ServicesCard href='//karmagurunft.com/'>
               <ServicesIcon2 src={'/images/guru.png'}/>
+          </ServicesCard>
+
+          <ServicesCard>
           </ServicesCard>
           <ServicesCard href='//maka-bros.com/'>
               <ServicesIcon1 src={'/images/maka.png'}/>

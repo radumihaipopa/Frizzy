@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ServicesContainer = styled.div`
-  height: 600px;
+  height: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,7 +9,7 @@ export const ServicesContainer = styled.div`
   background: #000;
 
   @media screen and (max-width: 768px) {
-    height: 1000px;
+    height: 1500px;
   }
  
  `
@@ -20,7 +20,7 @@ export const ServicesWrapper = styled.div`
     grid-template-columns: 1fr 1fr 1fr;
     align-items: start;
     grid-gap: 35px;
-    padding: 0 30px;
+    padding: 0 40px;
     color: #000;
 
     @media screen and (max-width: 786px) {
@@ -60,7 +60,6 @@ export const ServicesIcon3 = styled.img`
   height: 280px;
   width: 262px;
   border-radius: 30px;
-  margin-inline-start: 25px;
 `
 
 export const ServicesH1 = styled.h1`
