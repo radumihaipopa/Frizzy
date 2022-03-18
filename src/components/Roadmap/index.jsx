@@ -16,15 +16,15 @@ const Roadmap = () => {
         </ServicesCard>
         <ServicesCard>
         <ServicesIcon src={'/images/red.png'}/>
-          <ServicesH2>Q3/Q4 2022</ServicesH2>
+          <ServicesH2>Q2/Q3/Q4 2022</ServicesH2>
           <ServicesP>❤ Create toys & merchandise; <br/>
             ❤ 3D Frizzy collection; <br/>
-            ❤ Donate! </ServicesP>
+            </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={'/images/blue.png'}/>
-          <ServicesH2>2023</ServicesH2>
-          <ServicesP>❤ Create a toy shop; <br/> ❤ Involvement in developing a game!</ServicesP>
+          <ServicesH2>After mint</ServicesH2>
+          <ServicesP>❤ Create a toy shop; <br/> ❤ Start developing a game!</ServicesP>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>

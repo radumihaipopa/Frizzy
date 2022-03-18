@@ -40,6 +40,7 @@ export const ServicesCard = styled.div`
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
   transition: all 0.2s ease-in-out;
     transform: scale(1.02);
+  z-index: 1;
 
   &:hover {
     transform: scale(1.04);
@@ -51,7 +52,6 @@ export const ServicesIcon = styled.img`
   height: 170px;
   width: 170px;
   margin: 15px 0;
-
 `
 export const ServicesH1 = styled.h1`
   font-size: 2.5rem;

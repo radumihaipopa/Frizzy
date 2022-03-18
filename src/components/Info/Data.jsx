@@ -16,6 +16,7 @@ export const homeObjOne = {
   dark: true,
   darkText: false,
   link: false,
+  click: false,
   marginBottom: '10px',
 };
 
@@ -27,9 +28,9 @@ export const homeObjTwo = {
   topLine1: 'Giveaways',
   topLine2: 'Annual rewards',
   topLine3: 'BRAND NEW CAR',
-  description1: 'We will have a total of 1000 EGLD giveaways (50 EGLD every 5% milestone of the project and 200 EGLD at 50%). More Frizzies you own, more chances to win!',
+  description1: 'We will have a total of 1000 $EGLD giveaways. The more Frizzies you own, the more chances to win!',
   description2: 'We will host annual rewards for the most active members of our community, we want to intrigue you and keep it a surprise for now 🎁.',
-  description3: 'At sell out 1 out of the 25 Frizzy owners with the 🚗 accessory trait will get a brand new ',
+  description3: 'At sell out 1 out of the 25 Frizzy owners with the car accessory trait will get a brand new ',
   imgStart: true,
   img: '/images/car.png',
   toplineImage1: '/images/red.png',
@@ -40,9 +41,10 @@ export const homeObjTwo = {
   darkText: true,
   marginTop: '37px',
   marginBottom: '10px',
-  link: true,
+  link: false,
+  click: true,
   linkHref: '//www.tesla.com/model3',
-  linkDescription: 'Tesla Model 3.'
+  linkDescription: '🚗'
 };
 
 export const homeObjThree = {
@@ -53,9 +55,9 @@ export const homeObjThree = {
   topLine1: 'Future development and marketing',
   topLine2: 'Giveaways',
   topLine3: 'Donation',
-  description2: 'We love helping who helped us, therefore we will be giving 30% of the income back to the community. We will hold giveaway sessions for owners every milestone and we will create a giveaway pool from staking all the liquidity 😄 !',
-  description3: 'Our hearts are driven on helping the little ones that might have a chance at life, owning a Frizzy NFT will make you part of it 💖🎅🎁. 30% of the money will go towards ',
-  description1: 'We will use 40% of income towards future NFT projects, marketing and creating merchandise.',
+  description2: 'We love helping who helped us, therefore we will constantly develop value to give back to the community. We will hold giveaway sessions every 5% milestone and we created an $LKMEX farm that generates monthly salary 😄 !',
+  description3: 'Our hearts are driven on helping the little ones that might have a chance at life, owning a Frizzy NFT will make you part of it 💖🎅🎁. Every 10% of the milestone we will make a donation.',
+  description1: 'We will use part of the income towards art drops, marketing, creating merchandise and developing the game.',
   imgStart: false,
   img: '/images/Chart_small1.png',
   imgWidth: '93%',
@@ -66,6 +68,7 @@ export const homeObjThree = {
   primary: false,
   darkText: true,
   link: true,
+  click: false,
   linkHref: '//www.asociatiaprematurilor.ro/',
   linkDescription: 'premature babies NGO.',
   marginBottom: '90px',
@@ -76,12 +79,12 @@ export const homeObjFour = {
   lightBg: false,
   lightText: true,
   lighttextDesc: true,
-  topLine1: 'ART airdrops',
-  topLine2: 'Merchandise & Gaming',
+  topLine1: 'Art drops',
+  topLine2: 'Become a brand',
   topLine3: 'Royalties',
-  description1: 'We will have ART airdrops & early access for owners on our hand drawn project called "Magic Realms Cards"',
-  description2: 'We will work on creating illustrated books, educational baby cards, T-shirts and more. Part of merchandise will go towards different foster houses that need a bit of hope 🎁.\n Next year we will start developing a child friendly play-to-earn game! ',
-  description3: '5% of the royalties in the LKMEX farm and 5% will be donated towards ',
+  description1: 'We are having NFT art drops weekly & early access for owners on other NFT project called "Magic Realms Cards"',
+  description2: 'We will work on creating illustrated books, educational baby cards, T-shirts and more. Part of merchandise will go towards different foster houses that need a bit of hope 🎁.\n After minting we will start developing a child friendly play-to-earn game! ',
+  description3: 'For now, the royalties will go into the $LKMEX farm, after minting they will go towards ',
   imgStart: true,
   img: '/images/Santa_small.png',
   toplineImage1: '/images/red.png',
@@ -93,6 +96,7 @@ export const homeObjFour = {
   marginTop: '37px',
   marginBottom: '10px',
   link: true,
+  click: false,
   linkHref: '//www.asociatiaprematurilor.ro/',
   linkDescription: 'premature babies NGO.'
 };

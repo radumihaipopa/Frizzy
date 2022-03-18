@@ -1,16 +1,24 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { FaDiscord, FaInstagram, FaTwitter } from 'react-icons/fa'
 import { FooterContainer, FooterWrap, Img, ImgWrap, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from './FooterElements'
 import { animateScroll as scroll } from 'react-scroll';
+import {Modal} from "../Modal/Modal";
 
 const Footer = () => {
   const toggleHome = () => {
     scroll.scrollToTop();
   }
 
+  const [showModal, setShowModal] = useState(false);
+
+  const openModal = () => {
+    setShowModal(prev => !prev);
+  };
   return (
     <FooterContainer id='contact'>
       <FooterWrap>
+        <Modal showModal={showModal} setShowModal={setShowModal} image={'/images/treasure.png'}/>
+
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
@@ -18,7 +26,7 @@ const Footer = () => {
                 <Img src={'/images/logo192.png'} alt={'logo'}/>
               </ImgWrap>
             </SocialLogo>
-            <WebsiteRights>Born in Romania 👪 2022.</WebsiteRights>
+            <WebsiteRights>Born in Romania <WebsiteRights onClick={openModal}>👪</WebsiteRights> 2022.</WebsiteRights>
             <SocialIcons>
               <SocialIconLink href='//www.instagram.com/frizzy_eboy/' target='_blank' arial-label='Instagram'>
                 <FaInstagram/>
