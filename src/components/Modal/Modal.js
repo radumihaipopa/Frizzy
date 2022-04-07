@@ -83,7 +83,7 @@ export const Modal = ({ showModal, setShowModal, image }) => {
       <>
           {showModal ? (
             <Background onClick={closeModal} ref={modalRef}>
-                <animated.div style={animation}>
+                <animated.div style={animation}>part
                     <ModalWrapper showModal={showModal}>
                         <ModalImg src={image} alt='modal' />
                         <CloseModalButton

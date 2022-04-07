@@ -14,7 +14,6 @@ const Sidebar = ({isOpen,toggle}) => {
           <SidebarLink to='roadmap' onClick={toggle} offset={-80}>Roadmap</SidebarLink>
           <SidebarLink to='perks' onClick={toggle} offset={-80}>Perks</SidebarLink>
           <SidebarLink to='creators' onClick={toggle} offset={-80}>Creators</SidebarLink>
-          <SidebarLink to='partners' onClick={toggle} offset={-80}>Partners</SidebarLink>
           <SidebarLink to='contact' onClick={toggle} offset={-80}>Contact</SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
