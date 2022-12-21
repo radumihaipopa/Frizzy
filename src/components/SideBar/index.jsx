@@ -10,17 +10,20 @@ const Sidebar = ({isOpen,toggle}) => {
       <SidebarWrapper>
         <SidebarMenu>
           <SidebarLink to='about' onClick={toggle} offset={-80}>About</SidebarLink>
-          <SidebarLink to='giveaways' onClick={toggle} offset={-80}>Giveaways</SidebarLink>
           <SidebarLink to='roadmap' onClick={toggle} offset={-80}>Roadmap</SidebarLink>
           <SidebarLink to='perks' onClick={toggle} offset={-80}>Perks</SidebarLink>
-          <SidebarLink to='creators' onClick={toggle} offset={-80}>Creators</SidebarLink>
-          <SidebarLink to='contact' onClick={toggle} offset={-80}>Contact</SidebarLink>
-        </SidebarMenu>
+            <SidebarLink to='roles' onClick={toggle} offset={-80}>Roles</SidebarLink>
+            <SidebarLink to='brand' onClick={toggle} offset={-80}>Brand</SidebarLink>
+            <SidebarLink to='creators' onClick={toggle} offset={-80}>Creators & Contact</SidebarLink>
         <SideBtnWrap>
-          <SidebarOutLink href='//trust.market/buy/Frizzy'>Mint</SidebarOutLink>
+          <SidebarOutLink href='//xoxno.com/collection/FRIZZY-0153d1'>Buy Frizzy</SidebarOutLink>
         </SideBtnWrap>
+          <SideBtnWrap>
+              <SidebarOutLink>🛠️ Read Book 🛠️</SidebarOutLink>
+          </SideBtnWrap>
+        </SidebarMenu>
       </SidebarWrapper>
-    </SidebarContainer>
+</SidebarContainer>
   )
 }
 

@@ -13,7 +13,7 @@ export const Nav = styled.nav`
   font-size: 1rem;
   position: sticky;
   top:0;
-  z-index:11;
+  z-index: 4;
     transition: 0.8s all ease;
 `
 
@@ -21,7 +21,7 @@ export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
   height: 80px;
-  z-index: 999;
+  z-index: 5;
   width: 100%;
   padding: 0 24px;
   max-width: 1100px;
@@ -38,13 +38,13 @@ export const NavLogo = styled(LinkR) `
 `
 
 export const ImgWrap = styled.div`
-  max-width: 333px;
-  height: 70%;
+  max-width: 190px;
+  height: 100%;
 `;
 export const Img = styled.img`
-  width: 30%;
-  margin: 0 0 20px 0;
-  padding-right: 0;
+  width: 80%;
+  margin: -5px 0px 0px -50px;
+  padding-right: 20px;
 `;
 
 export const MobileIcon = styled.div`
@@ -85,7 +85,7 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid #01bf71
+    border-bottom: 3px solid #7283bc
   }
 `
 export const NavBtn = styled.nav`
@@ -110,9 +110,9 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
 `
 export const NavBtnLink = styled.a`
   border-radius: 50px;
-  background: #01bf71;
+  background: #adc4e6;
   white-space: nowrap;
-  padding: 11px 22px;
+  padding: 8px 10px;
   color: #010606;
   font-size: 16px;
   outline: none;
@@ -123,6 +123,7 @@ export const NavBtnLink = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0px 5px;
 
   &:hover {
     transition: all 0.2s ease-in-out;

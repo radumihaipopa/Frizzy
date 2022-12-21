@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
   color: #fff;
-  background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
+  background: ${({lightBg}) => (lightBg ? '#ffffff' : '#adc4e6')};
 `
 export const InfoWrapper = styled.div`
   display: grid;
@@ -47,7 +47,7 @@ export const TextWrapper = styled.div`
   }
 `
 export const TopLine = styled.p`
-  color: #01bf71;
+  color: #9f5748;
   font-size: 20px;
   line-height: 16px;
   font-weight: 900;
@@ -83,7 +83,7 @@ export const Subtitle  = styled.p`
 `
 export const SubtitleLink  = styled.a`
 border-radius: 50px;
-  background: #01bf71;
+  background: #9f5748;
   padding: 2px 8px;
   color: #010606;
   font-size: 16px;
@@ -99,6 +99,12 @@ export const ImgWrap = styled.div`
   max-width: 555px;
   height: 100%;
 `;
+
+export const VideoWrap = styled.div`
+  max-width: 555px;
+  height: 100%;
+`;
+
 export const Img = styled.img`
   border-radius: 10px;
   height: 544px;

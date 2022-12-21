@@ -1,19 +1,11 @@
-import React, { useState } from 'react';
-import { Modal } from '../Modal/Modal';
+import React from 'react';
 import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP} from './ServiceElements'
 
 const Creators = () => {
-  const [showModal, setShowModal] = useState(false);
-
-  const openModal = () => {
-    setShowModal(prev => !prev);
-  };
 
   return (
     <ServicesContainer id='creators'>
       <ServicesH1>Creators</ServicesH1>
-      <Modal showModal={showModal} setShowModal={setShowModal} image={'/images/riddle.gif'}/>
-
       <ServicesWrapper>
 
         <ServicesCard>
@@ -26,7 +18,7 @@ const Creators = () => {
           <ServicesH2>Andreea</ServicesH2>
           <ServicesP>Co-founder & Artist & Loving Mommy</ServicesP>
         </ServicesCard>
-        <ServicesCard onClick={openModal}>
+        <ServicesCard>
           <ServicesIcon src={'/images/marc.png'}/>
           <ServicesH2>Marcus</ServicesH2>
           <ServicesP>Inspirational character & Cute baby</ServicesP>

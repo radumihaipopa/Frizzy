@@ -6,23 +6,23 @@ import { MdClose } from 'react-icons/md';
 const Background = styled.div`
   position: absolute;
   display: flex;
-    border-radius: 20px;
-z-index: 10;
+  border-radius: 20px;
+  z-index: 10;
 `;
 
 const ModalWrapper = styled.div`
-  width: 850px;
+  width: 600px;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
   z-index: 10;
   border-radius: 20px;
     @media screen and (max-width: 768px) {
-    width: 700px;
+    width: 500px;
   }
   @media screen and (max-width: 480px) {
-    width: 400px;
+    width: 350px;
   }  
   @media screen and (max-width: 350px) {
-    width: 300px;
+    width: 250px;
   }  
 `;
 
@@ -53,7 +53,7 @@ export const Modal = ({ showModal, setShowModal, image }) => {
             duration: 250
         },
         opacity: showModal ? 1 : 0,
-        transform: showModal ? `translateY(0%)` : `translateY(-100%)`
+        transform: showModal ? `translateY(5%)` : `translateY(-100%)`
     });
 
     const closeModal = e => {
@@ -83,7 +83,7 @@ export const Modal = ({ showModal, setShowModal, image }) => {
       <>
           {showModal ? (
             <Background onClick={closeModal} ref={modalRef}>
-                <animated.div style={animation}>part
+                <animated.div style={animation}>
                     <ModalWrapper showModal={showModal}>
                         <ModalImg src={image} alt='modal' />
                         <CloseModalButton

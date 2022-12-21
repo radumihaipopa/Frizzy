@@ -2,12 +2,14 @@ import React, {useEffect, useState} from 'react'
 import Footer from '../components/Footer';
 import Hero from '../components/Hero'
 import Info from '../components/Info'
-import {homeObjOne, homeObjTwo} from '../components/Info/Data';
+import {homeObjOne} from '../components/Info/Data';
 import Navbar from '../components/Navbar'
 import Roadmap from '../components/Roadmap';
 import Creators from '../components/Creators';
 import Sidebar from '../components/SideBar';
 import Perks from '../components/Perks';
+import Roles from '../components/Roles';
+import Brand from '../components/Brand';
 import {isMobile} from 'react-device-detect';
 
 const Home = () => {
@@ -38,9 +40,10 @@ const Home = () => {
       <Navbar toggle={toggle}/>
       <Hero />
       <Info {...homeObjOne}/>
-      <Info {...homeObjTwo}/>
       <Roadmap />
       <Perks />
+      <Roles />
+      <Brand />
       <Creators />
       <Footer />
     </>

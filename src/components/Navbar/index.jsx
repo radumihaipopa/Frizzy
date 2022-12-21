@@ -33,7 +33,7 @@ const Navbar = ({ toggle }) => {
         <NavbarContainer>
           <NavLogo src to='/' onClick={toggleHome}>
             <ImgWrap>
-              <Img src={'/images/logo192.png'} alt={'logo'}/>
+              <Img src={'/images/raCket.png'} alt={'logo'}/>
             </ImgWrap>
           </NavLogo>
           <MobileIcon onClick={toggle}>
@@ -45,11 +45,7 @@ const Navbar = ({ toggle }) => {
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
               >About</NavLinks>
             </NavItem>
-            <NavItem>
-              <NavLinks to='giveaways'
-              smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >Giveaways</NavLinks>
-            </NavItem>
+
             <NavItem>
               <NavLinks to='roadmap'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
@@ -61,14 +57,29 @@ const Navbar = ({ toggle }) => {
               >Perks</NavLinks>
             </NavItem>
             <NavItem>
+              <NavLinks to='roles'
+                        smooth={true} duration={500} spy={true} exact='true' offset={-80}
+              >Roles</NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to='brand'
+                        smooth={true} duration={500} spy={true} exact='true' offset={-80}
+              >Brand</NavLinks>
+            </NavItem>
+            <NavItem>
               <NavLinks to='creators'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
               >Creators & Contact</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink href='//trust.market/buy/Frizzy' onMouseEnter={onHover} onMouseLeave={onHover}>
-              Mint now ! {hover ? <ArrowForward /> : <ArrowRight/>}
+            <NavBtnLink href='//xoxno.com/collection/FRIZZY-0153d1' onMouseEnter={onHover} onMouseLeave={onHover}>
+              Buy Frizzy {hover ? <ArrowForward /> : <ArrowRight/>}
+            </NavBtnLink>
+          </NavBtn>
+          <NavBtn>
+            <NavBtnLink>
+              🛠️ Read Book 🛠️
             </NavBtnLink>
           </NavBtn>
         </NavbarContainer>
