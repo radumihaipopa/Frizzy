@@ -143,7 +143,7 @@ font-size: 1.25em;
     }
 }
 @media screen and (max-width: 480px) {
-width: 17em;
+width: 15em;
   transform: translateY(150px);
 
 :before {

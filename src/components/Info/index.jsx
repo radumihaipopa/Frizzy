@@ -10,7 +10,7 @@ const Info = ({lightBg, id, imgStart, topLine1, topLine2, topLine3, toplineImage
   };
 
   const mobileStyle = {
-    width: "320px",
+    width: "250px",
     borderRadius: "50px",
     padding: "20px",
   };
